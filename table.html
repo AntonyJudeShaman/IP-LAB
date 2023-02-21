@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Table with Paragraphs</title>
+</head>
+<a href="assign.html" style="font-size:large;">Try out a form validated using RegExp</a><br><br><br><br>
+<h1>Table of information about Regular Expressions</h1>
+
+<table border="1" width="70%">
+	<thead>
+        <tr>
+            <th colspan="2">Explanations</td>
+	    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Regular Expression Object in Javascript:</td>
+            <td><p>A regular expression is a sequence of characters that forms a search pattern.
+
+                When you search for data in a text, you can use this search pattern to describe what you are searching for.
+                
+                A regular expression can be a single character, or a more complicated pattern.
+                
+                Regular expressions can be used to perform all types of text search and text replace operations.</p></td>
+        </tr>
+        <tr>
+            <td>The various modifiers available in RegExp and their description:</td>
+            <td><p>There are three basic modifiers, or flags, for RegExp, they are i, g, m. The i modifier is used when you want to perform a case-insensitive search. Case-insensitive means search all words and ignoring the capitalization of letters. The g modifier is used when searching “globally” in your code. This means it continues to search for a match after the first match is made and returns all matches in your code. The g modifier will only search for the expression you enter and is case sensitive. If you enter the expression var patt1=/or/g;, it will return matches containing “or”. For example, the word “or” would be chosen and the word “selector” would be chosen, as it contains the pattern “or”. You can also combine the modifiers to perform a global, case-insensitive search by using gi.</p></td>
+        </tr> 
+        <tr>
+            <td>Brackets in RegExp:</td>
+            <td><p>A bracket expression (an expression enclosed in square brackets, "[]" ) is an RE that shall match a specific set of single characters, and may match a specific set of multi-character collating elements, based on the non-empty set of list expressions contained in the bracket expression.</p></td>
+        </tr>
+        <tr>
+            <td>Metacharacters in RegExp:</td>
+            <td><p>Metacharacters are considered as the building blocks of regular expressions. Regular expressions are patterns used to match character combinations in the strings. Metacharacter has special meaning in finding patterns and are mostly used to define the search criteria and any text manipulations.<br> Example: "\d, \w, +. *, ?"</p></td>
+        </tr>
+        <tr>
+            <td> Quantifiers in RegExp:</td>
+            <td><p>The simplest quantifier is a number in curly braces: {n}.
+
+                A quantifier is appended to a character (or a character class, or a [...] set etc) and specifies how many we need.
+                
+                It has a few advanced forms, let’s see examples:
+                
+                The exact count: {5}
+                \d{5} denotes exactly 5 digits, the same as \d\d\d\d\d.
+                
+                <br>The example below looks for a 5-digit number:<br>
+                
+                alert( "I'm 12345 years old".match(/\d{5}/) ); //  "12345"</p></td>
+        </tr>   
+        <tr>
+            <td> RegExp methods:</td>
+            <td><p>In JavaScript, regular expressions are often used with the two string methods: search() and replace().
+
+                <br>The search() method uses an expression to search for a match, and returns the position of the match.
+                
+                <br>The replace() method returns a modified string where the pattern is replaced.</p></td>
+        </tr>
+
+    <tbody>
+</html>
